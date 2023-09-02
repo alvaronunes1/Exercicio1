@@ -11,7 +11,7 @@ public class BuscaSequencial {
         Scanner ler = new Scanner(System.in);
 
         for (int i = 0; i < vetor.length; i++) {
-            vetor[i] = randomico.nextInt(10);
+            vetor[i] = randomico.nextInt(100);
         }
 
         System.out.println("Digite um numero para ser buscado no vetor");
